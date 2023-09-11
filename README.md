@@ -1,6 +1,8 @@
 # node-shellies-ng
 [![npm-version](https://badgen.net/npm/v/shellies-ng)](https://www.npmjs.com/package/shellies-ng)
 
+**Fork of the original from alexryd to modify the (for now) Pro 2 and Pro 2PM model numbers to use the UL suffix**
+
 Handles communication with the next generation of Shelly devices.
 
 For the first generation, see [node-shellies](https://github.com/alexryd/node-shellies).
