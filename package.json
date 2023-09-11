@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/jhulbertpmn/node-shellies-ng-ul/issues"
   },
-  "homepage": "https://github.com/jhulbertpmn/node-shellies-ng-ul#readme", 
+  "homepage": "https://github.com/jhulbertpmn/node-shellies-ng-ul#readme",
   "devDependencies": {
     "@types/jest": "^28.1.2",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
@@ -47,5 +47,5 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
-},
+  }
 }
