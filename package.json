@@ -1,7 +1,7 @@
 {
-  "name": "shellies-ng",
+  "name": "shellies-ng-ul",
   "version": "1.5.1",
-  "description": "Handles communication with the next generation of Shelly devices",
+  "description": "Handles communication with the next generation of Shelly devices with UL suffix",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -16,21 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexryd/node-shellies-ng.git"
+    "url": "git+https://github.com/jhulbertpmn/node-shellies-ng-ul.git"
   },
   "keywords": [
     "shelly"
   ],
-  "author": "Alexander Rydén",
+  "author": "Josh Hulbert (Alexander Rydén)",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/alexryd/node-shellies-ng/issues"
+    "url": "https://github.com/jhulbertpmn/node-shellies-ng-ul/issues"
   },
-  "homepage": "https://github.com/alexryd/node-shellies-ng#readme",
-  "funding": {
-    "type": "kofi",
-    "url": "https://ko-fi.com/alexryd"
-  },
+  "homepage": "https://github.com/jhulbertpmn/node-shellies-ng-ul#readme", 
   "devDependencies": {
     "@types/jest": "^28.1.2",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
@@ -48,5 +44,8 @@
     "json-rpc-2.0": "^1.3.0",
     "multicast-dns": "^7.2.5",
     "ws": "^8.8.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+},
 }
